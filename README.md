@@ -13,14 +13,14 @@ blinking component's output is low causing the RGB LED to flash
 
 ## Verification and Results
 
-###Blinking LED Testbench
+### Blinking LED Testbench
 ![Blinking LED Testbench](images/tb_blinking_led.png)
 Testbench starts with rst high and led_en low
 
 With rst low and led_en high the output, led_out, flashes on and off. 
 CLK_CYCLES_PER_TOGGLE was reduced for simulation
 
-###RGB Test Bench
+### RGB Test Bench
 ![RGB Testbench](images/tb_rgb_led_top.png)
 Simulation starts with rst high and led_en low then test 5 switch positions. R, G, B, GB, RGB
 Output flashes with color matching the switch state and if two or more switches are high simultaneously
